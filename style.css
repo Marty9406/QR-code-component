@@ -13,10 +13,12 @@ body {
     width: 320px;
     height: 500px;
     background-color: hsl(0, 0%, 100%);
-    margin: 0 auto;
-    padding: 15px;
-    border-radius: 10px;
-    vertical-align: middle;
+    padding: 20px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .container img {
@@ -28,7 +30,7 @@ body {
     text-align: center;
     color: hsl(218, 44%, 22%);
     font-size: 20px;
-    padding: 20px 20px 0 20px;
+    margin: 20px;
 
 }
 
@@ -36,5 +38,5 @@ body {
     text-align: center;
     color: hsl(220, 15%, 55%);
     font-size: 15px;
-    padding: 20px;
+    margin: 20px;
 }
